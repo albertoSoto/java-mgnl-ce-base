@@ -1,0 +1,16 @@
+templateScript: /deicos/templates/pages/dummyTemplate.ftl
+#renderType: freemarker
+renderType: site
+visible: true
+title: Dummy Template
+description: This is the sample Hello Magnolia page using twitter bootstrap.
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      html:
+        id: mte:components/html
+      textImage:
+        id: mte:components/textImage
+      gridComponent:
+        id: deicos:components/grid

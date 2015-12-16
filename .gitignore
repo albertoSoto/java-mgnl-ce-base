@@ -1,0 +1,7 @@
+/coachgate-webapp/target
+/coachgate-webapp/*.iml
+/coachgate-webapp/overlays
+/coachgate-templating-module/*.iml
+/coachgate-templating-module/target
+/coachgate-blossom-module/target
+/coachgate-blossom-module/*.iml

@@ -1,0 +1,22 @@
+templateScript: /deicos/templates/pages/home.ftl
+#renderType: freemarker
+renderType: site
+visible: true
+title: Home Template
+description: Home page w Bootstrap
+dialog: deicos:pages/home
+modelClass: com.deicos.groovy.models.GroovyModelExample
+areas:
+  htmlheader:
+    type: noComponent
+    renderType: freemarker
+    templateScript: /deicos/templates/macro/htmlheader.ftl
+  main:
+    renderType: freemarker
+    availableComponents:
+      html:
+        id: mte:components/html
+      textImage:
+        id: mte:components/textImage
+      gridComponent:
+        id: deicos:components/grid

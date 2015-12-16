@@ -1,0 +1,11 @@
+templateScript: /deicos/templates/components/grid.ftl
+renderType: freemarker
+visible: true
+title: Grid
+description: This is a grid component. A parent container for for columns.
+dialog: deicos:components/grid
+areas:
+  columns:
+    availableComponents:
+      column:
+        id: deicos:components/column

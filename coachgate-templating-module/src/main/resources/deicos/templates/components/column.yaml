@@ -1,0 +1,17 @@
+templateScript: /deicos/templates/components/column.ftl
+renderType: freemarker
+visible: true
+title: Column
+description: Just a column
+dialog: deicos:components/column
+parameters:
+  bgcontext: bg-success
+areas:
+  parameters:
+    dummy: dummy-example
+  columns:
+    availableComponents:
+      html:
+        id: mte:components/html
+      column:
+        id: deicos/components/column
