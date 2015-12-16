@@ -1,0 +1,1 @@
+# java-mgnl-ce-base
